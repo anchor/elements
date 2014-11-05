@@ -1,0 +1,2 @@
+# Anchor diskimage-builder elements
+Custom diskimage-elements for disk images at Anchor.

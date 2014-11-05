@@ -1,0 +1,5 @@
+#!/bin/bash
+set -eux
+
+os-svc-enable -n unattended-upgrades
+os-svc-restart -n unattended-upgrades

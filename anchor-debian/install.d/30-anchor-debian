@@ -2,7 +2,8 @@
 set -eux
 
 # Install Packages
-install-packages zsh unattended-upgrades byobu
+install-packages zsh unattended-upgrades byobu git uuid-runtime debootstrap vim
+
 
 # Configure zsh defaults
 /usr/bin/wget -O /etc/zsh/zshrc http://git.grml.org/f/grml-etc-core/etc/zsh/zshrc

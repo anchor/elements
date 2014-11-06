@@ -8,8 +8,8 @@ install-packages zsh unattended-upgrades byobu
 /usr/bin/wget -O /etc/zsh/zshrc http://git.grml.org/f/grml-etc-core/etc/zsh/zshrc
 
 # Set default shell for root and Debian
-chsh -s /bin/zsh
-chsh -s /bin/zsh debian
+/usr/bin/chsh -s /bin/zsh
+/usr/bin/chsh -s /bin/zsh debian
 
 # Enable services
 os-svc-enable -n unattended-upgrades

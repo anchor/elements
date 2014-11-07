@@ -13,4 +13,4 @@ install-packages zsh unattended-upgrades byobu git uuid-runtime debootstrap vim
 /usr/bin/chsh -s /bin/zsh debian
 
 # Enable services
-os-svc-enable -n unattended-upgrades
+# None to enable yet
